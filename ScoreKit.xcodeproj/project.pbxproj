@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F13B201512A62F00E42C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F13B1F1512A62F00E42C9A /* Foundation.framework */; };
+		53F13B2E1512A62F00E42C9A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F13B2D1512A62F00E42C9A /* SenTestingKit.framework */; };
+		53F13B301512A62F00E42C9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F13B2F1512A62F00E42C9A /* UIKit.framework */; };
+		53F13B311512A62F00E42C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F13B1F1512A62F00E42C9A /* Foundation.framework */; };
+		53F13B341512A62F00E42C9A /* libScoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F13B1C1512A62F00E42C9A /* libScoreKit.a */; };
+		53F13B3A1512A62F00E42C9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53F13B381512A62F00E42C9A /* InfoPlist.strings */; };
+		53F13B3D1512A62F00E42C9A /* SBEloRatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F13B3C1512A62F00E42C9A /* SBEloRatingTests.m */; };
+		53FF1ECD1512BE9E0035F5BE /* SBKFactorStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FF1ECC1512BE9E0035F5BE /* SBKFactorStrategy.h */; };
+		53FF1ED11512BF970035F5BE /* SBUSCFKFactorStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FF1ECF1512BF970035F5BE /* SBUSCFKFactorStrategy.h */; };
+		53FF1ED21512BF970035F5BE /* SBUSCFKFactorStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF1ED01512BF970035F5BE /* SBUSCFKFactorStrategy.m */; };
+		53FF1ED21512BF970035F5C0 /* SBFIDEKFactorStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF1ED21512BF970035F5BF /* SBFIDEKFactorStrategy.m */; };
+		53FF1ED21512BF970035F5C2 /* SBFIDEKFactorStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FF1ED21512BF970035F5C1 /* SBFIDEKFactorStrategy.h */; };
+		53FF1ED91512C3510035F5BE /* SBFIDEKFactorStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF1ED81512C3510035F5BE /* SBFIDEKFactorStrategyTests.m */; };
+		53FF1EDB1512C6950035F5BE /* SBUSCFKFactorStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF1EDA1512C6950035F5BE /* SBUSCFKFactorStrategyTests.m */; };
+		53FF1EDF1512C86E0035F5BE /* SBEloRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FF1EDD1512C86E0035F5BE /* SBEloRating.h */; };
+		53FF1EE01512C86E0035F5BE /* SBEloRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF1EDE1512C86E0035F5BE /* SBEloRating.m */; };
+		53FF1EE31512CA990035F5BE /* SBDefaultKFactorStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FF1EE11512CA990035F5BE /* SBDefaultKFactorStrategy.h */; };
+		53FF1EE41512CA990035F5BE /* SBDefaultKFactorStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF1EE21512CA990035F5BE /* SBDefaultKFactorStrategy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F13B321512A62F00E42C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F13B131512A62F00E42C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F13B1B1512A62F00E42C9A;
+			remoteInfo = ScoreKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53F13B1C1512A62F00E42C9A /* libScoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F13B1F1512A62F00E42C9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53F13B231512A62F00E42C9A /* ScoreKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoreKit-Prefix.pch"; sourceTree = "<group>"; };
+		53F13B241512A62F00E42C9A /* ScoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKit.h; sourceTree = "<group>"; };
+		53F13B2C1512A62F00E42C9A /* ScoreKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F13B2D1512A62F00E42C9A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		53F13B2F1512A62F00E42C9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		53F13B371512A62F00E42C9A /* ScoreKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreKitTests-Info.plist"; sourceTree = "<group>"; };
+		53F13B391512A62F00E42C9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53F13B3B1512A62F00E42C9A /* SBEloRatingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBEloRatingTests.h; sourceTree = "<group>"; };
+		53F13B3C1512A62F00E42C9A /* SBEloRatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBEloRatingTests.m; sourceTree = "<group>"; };
+		53FF1ECC1512BE9E0035F5BE /* SBKFactorStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKFactorStrategy.h; sourceTree = "<group>"; };
+		53FF1ECF1512BF970035F5BE /* SBUSCFKFactorStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBUSCFKFactorStrategy.h; sourceTree = "<group>"; };
+		53FF1ED01512BF970035F5BE /* SBUSCFKFactorStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBUSCFKFactorStrategy.m; sourceTree = "<group>"; };
+		53FF1ED21512BF970035F5BF /* SBFIDEKFactorStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBFIDEKFactorStrategy.m; sourceTree = "<group>"; };
+		53FF1ED21512BF970035F5C1 /* SBFIDEKFactorStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBFIDEKFactorStrategy.h; sourceTree = "<group>"; };
+		53FF1ED71512C3510035F5BE /* SBFIDEKFactorStrategyTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBFIDEKFactorStrategyTests.h; sourceTree = "<group>"; };
+		53FF1ED81512C3510035F5BE /* SBFIDEKFactorStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBFIDEKFactorStrategyTests.m; sourceTree = "<group>"; };
+		53FF1EDA1512C6950035F5BE /* SBUSCFKFactorStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBUSCFKFactorStrategyTests.m; sourceTree = "<group>"; };
+		53FF1EDC1512C6AA0035F5BE /* SBUSCFKFactorStrategyTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBUSCFKFactorStrategyTests.h; sourceTree = "<group>"; };
+		53FF1EDD1512C86E0035F5BE /* SBEloRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBEloRating.h; sourceTree = "<group>"; };
+		53FF1EDE1512C86E0035F5BE /* SBEloRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBEloRating.m; sourceTree = "<group>"; };
+		53FF1EE11512CA990035F5BE /* SBDefaultKFactorStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDefaultKFactorStrategy.h; sourceTree = "<group>"; };
+		53FF1EE21512CA990035F5BE /* SBDefaultKFactorStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDefaultKFactorStrategy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F13B191512A62F00E42C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F13B201512A62F00E42C9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F13B281512A62F00E42C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F13B2E1512A62F00E42C9A /* SenTestingKit.framework in Frameworks */,
+				53F13B301512A62F00E42C9A /* UIKit.framework in Frameworks */,
+				53F13B311512A62F00E42C9A /* Foundation.framework in Frameworks */,
+				53F13B341512A62F00E42C9A /* libScoreKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F13B111512A62F00E42C9A = {
+			isa = PBXGroup;
+			children = (
+				53F13B211512A62F00E42C9A /* ScoreKit */,
+				53F13B351512A62F00E42C9A /* ScoreKitTests */,
+				53F13B1E1512A62F00E42C9A /* Frameworks */,
+				53F13B1D1512A62F00E42C9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F13B1D1512A62F00E42C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F13B1C1512A62F00E42C9A /* libScoreKit.a */,
+				53F13B2C1512A62F00E42C9A /* ScoreKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F13B1E1512A62F00E42C9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F13B1F1512A62F00E42C9A /* Foundation.framework */,
+				53F13B2D1512A62F00E42C9A /* SenTestingKit.framework */,
+				53F13B2F1512A62F00E42C9A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53F13B211512A62F00E42C9A /* ScoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				53F13B241512A62F00E42C9A /* ScoreKit.h */,
+				53FF1EDD1512C86E0035F5BE /* SBEloRating.h */,
+				53FF1EDE1512C86E0035F5BE /* SBEloRating.m */,
+				53FF1ECC1512BE9E0035F5BE /* SBKFactorStrategy.h */,
+				53FF1EE11512CA990035F5BE /* SBDefaultKFactorStrategy.h */,
+				53FF1EE21512CA990035F5BE /* SBDefaultKFactorStrategy.m */,
+				53FF1ECF1512BF970035F5BE /* SBUSCFKFactorStrategy.h */,
+				53FF1ED01512BF970035F5BE /* SBUSCFKFactorStrategy.m */,
+				53FF1ED21512BF970035F5C1 /* SBFIDEKFactorStrategy.h */,
+				53FF1ED21512BF970035F5BF /* SBFIDEKFactorStrategy.m */,
+				53F13B221512A62F00E42C9A /* Supporting Files */,
+			);
+			name = ScoreKit;
+			path = ScoreKit;
+			sourceTree = "<group>";
+		};
+		53F13B221512A62F00E42C9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53F13B231512A62F00E42C9A /* ScoreKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53F13B351512A62F00E42C9A /* ScoreKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				53F13B3B1512A62F00E42C9A /* SBEloRatingTests.h */,
+				53F13B3C1512A62F00E42C9A /* SBEloRatingTests.m */,
+				53FF1ED71512C3510035F5BE /* SBFIDEKFactorStrategyTests.h */,
+				53FF1ED81512C3510035F5BE /* SBFIDEKFactorStrategyTests.m */,
+				53FF1EDC1512C6AA0035F5BE /* SBUSCFKFactorStrategyTests.h */,
+				53FF1EDA1512C6950035F5BE /* SBUSCFKFactorStrategyTests.m */,
+				53F13B361512A62F00E42C9A /* Supporting Files */,
+			);
+			path = ScoreKitTests;
+			sourceTree = "<group>";
+		};
+		53F13B361512A62F00E42C9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53F13B371512A62F00E42C9A /* ScoreKitTests-Info.plist */,
+				53F13B381512A62F00E42C9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53F13B1A1512A62F00E42C9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FF1ECD1512BE9E0035F5BE /* SBKFactorStrategy.h in Headers */,
+				53FF1ED11512BF970035F5BE /* SBUSCFKFactorStrategy.h in Headers */,
+				53FF1ED21512BF970035F5C2 /* SBFIDEKFactorStrategy.h in Headers */,
+				53FF1EDF1512C86E0035F5BE /* SBEloRating.h in Headers */,
+				53FF1EE31512CA990035F5BE /* SBDefaultKFactorStrategy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53F13B1B1512A62F00E42C9A /* ScoreKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F13B401512A62F00E42C9A /* Build configuration list for PBXNativeTarget "ScoreKit" */;
+			buildPhases = (
+				53F13B181512A62F00E42C9A /* Sources */,
+				53F13B191512A62F00E42C9A /* Frameworks */,
+				53F13B1A1512A62F00E42C9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreKit;
+			productName = ScoreKit;
+			productReference = 53F13B1C1512A62F00E42C9A /* libScoreKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53F13B2B1512A62F00E42C9A /* ScoreKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F13B431512A62F00E42C9A /* Build configuration list for PBXNativeTarget "ScoreKitTests" */;
+			buildPhases = (
+				53F13B271512A62F00E42C9A /* Sources */,
+				53F13B281512A62F00E42C9A /* Frameworks */,
+				53F13B291512A62F00E42C9A /* Resources */,
+				53F13B2A1512A62F00E42C9A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F13B331512A62F00E42C9A /* PBXTargetDependency */,
+			);
+			name = ScoreKitTests;
+			productName = ScoreKitTests;
+			productReference = 53F13B2C1512A62F00E42C9A /* ScoreKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F13B131512A62F00E42C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 53F13B161512A62F00E42C9A /* Build configuration list for PBXProject "ScoreKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53F13B111512A62F00E42C9A;
+			productRefGroup = 53F13B1D1512A62F00E42C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F13B1B1512A62F00E42C9A /* ScoreKit */,
+				53F13B2B1512A62F00E42C9A /* ScoreKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F13B291512A62F00E42C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F13B3A1512A62F00E42C9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53F13B2A1512A62F00E42C9A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F13B181512A62F00E42C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FF1ED21512BF970035F5BE /* SBUSCFKFactorStrategy.m in Sources */,
+				53FF1ED21512BF970035F5C0 /* SBFIDEKFactorStrategy.m in Sources */,
+				53FF1EE01512C86E0035F5BE /* SBEloRating.m in Sources */,
+				53FF1EE41512CA990035F5BE /* SBDefaultKFactorStrategy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F13B271512A62F00E42C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F13B3D1512A62F00E42C9A /* SBEloRatingTests.m in Sources */,
+				53FF1ED91512C3510035F5BE /* SBFIDEKFactorStrategyTests.m in Sources */,
+				53FF1EDB1512C6950035F5BE /* SBUSCFKFactorStrategyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F13B331512A62F00E42C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F13B1B1512A62F00E42C9A /* ScoreKit */;
+			targetProxy = 53F13B321512A62F00E42C9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53F13B381512A62F00E42C9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F13B391512A62F00E42C9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F13B3E1512A62F00E42C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53F13B3F1512A62F00E42C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F13B411512A62F00E42C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ScoreKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreKit/ScoreKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		53F13B421512A62F00E42C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ScoreKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreKit/ScoreKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		53F13B441512A62F00E42C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreKit/ScoreKit-Prefix.pch";
+				INFOPLIST_FILE = "ScoreKitTests/ScoreKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		53F13B451512A62F00E42C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreKit/ScoreKit-Prefix.pch";
+				INFOPLIST_FILE = "ScoreKitTests/ScoreKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F13B161512A62F00E42C9A /* Build configuration list for PBXProject "ScoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F13B3E1512A62F00E42C9A /* Debug */,
+				53F13B3F1512A62F00E42C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F13B401512A62F00E42C9A /* Build configuration list for PBXNativeTarget "ScoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F13B411512A62F00E42C9A /* Debug */,
+				53F13B421512A62F00E42C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F13B431512A62F00E42C9A /* Build configuration list for PBXNativeTarget "ScoreKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F13B441512A62F00E42C9A /* Debug */,
+				53F13B451512A62F00E42C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F13B131512A62F00E42C9A /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ScoreKit' target in the 'ScoreKit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
